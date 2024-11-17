@@ -18,6 +18,11 @@
       },
       ...
     ]
+
+    Deprecated:
+      - "footer_description" (string) (default: ''): short description in the footer
+      - "footer_link" (object) (default: {}): call to action link in the footer; type Link
+      - "footer_picture" (object) (default: {}): picture in the footer; type Picture
 #}
 
 {# Internal properties #}
@@ -63,7 +68,10 @@
 
 {# Print the result #}
 
-<article class="{{ _css_class }}"{{ _extra_attributes|raw }}>
+<article
+  class="{{ _css_class }}"
+  {{ _extra_attributes|raw }}
+>
   <div class="{{ _css_container_class }}">
     <div class="ecl-featured-item__item">
     {% if _title is not empty %}

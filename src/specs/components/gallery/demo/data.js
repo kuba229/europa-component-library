@@ -4,6 +4,8 @@ const exampleLink = `${publicUrl}/example`;
 module.exports = {
   id: 'gallery-id',
   icon_path: '/icons.svg',
+  sr_gallery_label:
+    'Open gallery items to view images in original size, watch videos and share them',
   sr_video_label: 'Video',
   sr_video_player: 'Video player',
   items: [
@@ -17,7 +19,7 @@ module.exports = {
       },
       picture: {
         img: {
-          src: 'https://inno-ecl.s3.amazonaws.com/media/examples/example-image11.jpg',
+          src: 'https://inno-ecl.s3.amazonaws.com/media/examples/example-image.jpg',
           alt: 'Image 1',
         },
       },
@@ -207,6 +209,58 @@ module.exports = {
       title: 'EU by topic',
       description: 'EU by topic. [Image without thumbnail]',
       meta: 'Copyright, Author, Licence for image 10',
+      share_path: '/share#example-image10.jpg',
+    },
+    {
+      // Image
+      picture: {
+        img: {
+          src: 'https://inno-ecl.s3.amazonaws.com/media/examples/example-image10.jpg',
+          alt: 'Lorem ipsum',
+        },
+      },
+      title: '12',
+      description: 'Lorem ipsum',
+      meta: 'Copyright, Author, Licence for Lorem ipsum',
+      share_path: '/share#example-image10.jpg',
+    },
+    {
+      // Image
+      picture: {
+        img: {
+          src: 'https://inno-ecl.s3.amazonaws.com/media/examples/example-image10.jpg',
+          alt: 'Lorem ipsum',
+        },
+      },
+      title: '13',
+      description: 'Lorem ipsum',
+      meta: 'Copyright, Author, Licence for Lorem ipsum',
+      share_path: '/share#example-image10.jpg',
+    },
+    {
+      // Image
+      picture: {
+        img: {
+          src: 'https://inno-ecl.s3.amazonaws.com/media/examples/example-image10.jpg',
+          alt: 'Lorem ipsum',
+        },
+      },
+      title: '14',
+      description: 'Lorem ipsum',
+      meta: 'Copyright, Author, Licence for Lorem ipsum',
+      share_path: '/share#example-image10.jpg',
+    },
+    {
+      // Image
+      picture: {
+        img: {
+          src: 'https://inno-ecl.s3.amazonaws.com/media/examples/example-image10.jpg',
+          alt: 'Lorem ipsum',
+        },
+      },
+      title: '15',
+      description: 'Lorem ipsum',
+      meta: 'Copyright, Author, Licence for Lorem ipsum',
       share_path: '/share#example-image10.jpg',
     },
   ],
